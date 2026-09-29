@@ -9,4 +9,3 @@ urlpatterns = [
     path("page/", views.html_page, name="html_page"),
     path("redirect-about/", views.redirect_to_about, name = "redirect_about")
 ]
-
