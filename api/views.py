@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("Welcome to Django Basic Backend")
+
+def about(request):
+    return HttpResponse("This is the About endpoint")
