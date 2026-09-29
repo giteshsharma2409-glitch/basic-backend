@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 
 # Create your views here.
@@ -24,3 +24,6 @@ def user_data(request):
 
 def html_page(request):
     return render(request, "index.html")
+
+def redirect_to_about(request):
+    return redirect("about")
