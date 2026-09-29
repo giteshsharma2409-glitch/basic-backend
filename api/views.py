@@ -21,3 +21,6 @@ def user_data(request):
         "name": "Gitesh",
         "course": "B.Tech CSE"
     })
+
+def html_page(request):
+    return render(request, "index.html")
