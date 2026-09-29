@@ -14,3 +14,10 @@ def api_data(request):
         "message": "This is a JSON response",
         "status": "success"
     })
+
+def user_data(request):
+    return JsonResponse({
+        "id": 1,
+        "name": "Gitesh",
+        "course": "B.Tech CSE"
+    })
