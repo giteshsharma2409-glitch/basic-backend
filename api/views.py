@@ -27,3 +27,6 @@ def html_page(request):
 
 def redirect_to_about(request):
     return redirect("about")
+
+def redirect_to_html(request):
+    return redirect("html_page")
